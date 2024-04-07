@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDeputyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prénom Nom"
+                android:textSize="28dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textViewDeputyCirco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Dept, Circonscription"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageViewDeputy"
+                android:layout_width="419dp"
+                android:layout_height="257dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/textViewDeputyGroupe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Groupe" />
+
+            <TextView
+                android:id="@+id/textViewDeputyMandat_debut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12/04/2020" />
+
+            <TextView
+                android:id="@+id/textViewDeputyEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email@toto.fr" />
+
+            <TextView
+                android:id="@+id/textViewDeputyCollaborateurs"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="Collaborateur" />
+
+            <TextView
+                android:id="@+id/textViewItemDeputySite"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="Sites" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
