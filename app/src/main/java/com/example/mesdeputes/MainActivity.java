@@ -12,7 +12,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
 public class MainActivity extends AppCompatActivity
         implements SearchView.OnQueryTextListener, SearchObserver, AdapterView.OnItemClickListener {
 

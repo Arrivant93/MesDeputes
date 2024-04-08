@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class Deputy implements Serializable {
 
-    private final ArrayList<String> sites_web;
     private int id;
     private String firstname;
     private String lastname;
@@ -15,36 +14,22 @@ public class Deputy implements Serializable {
     private int numCirco;
     private String nameCirco;
 
-    private String mandat_debut;
-
-    private String collaborateurs;
-
-    private String site;
-
-
-
     private String email;
     private String groupe;
+    private String mandat_debut;
+    private String parti_financier;
+    private ArrayList<String> collaborator;
 
-    public ArrayList<String> getSites_web() {
-        return sites_web;
-    }
-
-    public Deputy(int id, String firstname, String lastname, String department, int numCirco, String nameCirco, String mandat_debut, String collaborateurs) {
+    public Deputy(int id, String firstname, String lastname, String department, int numCirco, String nameCirco,String mandat_debut,String parti_financier) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.department = department;
         this.numCirco = numCirco;
-
-        this.mandat_debut= mandat_debut;
-        this.collaborateurs = collaborateurs;
-
-        this.sites_web = new ArrayList<String>();
-
-
-
         this.nameCirco = nameCirco;
+        this.mandat_debut = mandat_debut;
+        this.parti_financier = parti_financier;
+        this.collaborator =new ArrayList<String>();
     }
 
     public int getId() {
@@ -114,34 +99,37 @@ public class Deputy implements Serializable {
     public String getMandat_debut() {
         return mandat_debut;
     }
-    public void setMandat_debut(String mandat_debut){
+
+    public void setMandat_debut(String mandat_debut) {
         this.mandat_debut = mandat_debut;
     }
-
-
-    public String getCollaborateurs() {
-        return collaborateurs;
-    }
-    public void setCollaborateurs(String collaborateurs){
-        this.collaborateurs = collaborateurs;
-    }
-
-    public  String getSite() { return site;}
-    public void setSite(String site){this.site = site;}
 
     public String getNameForAvatar(){
         return firstname.replace(' ', '-').toLowerCase()+
                 "-"+lastname.replace(' ', '-').toLowerCase();
     }
 
+    public String getParti_financier() {
+        return parti_financier;
+    }
+
+    public void setParti_financier(String parti_financier) {
+        this.parti_financier = parti_financier;
+    }
+
+    public ArrayList<String> getCollaborator() {
+        return collaborator;
+    }
+
+    public void setCollaborator(ArrayList<String> collaborator) {
+        this.collaborator = collaborator;
+    }
+    public void addCollaborator(String nouveauCollaborator) {
+        this.collaborator.add(nouveauCollaborator);
+    }
     @Override
     public boolean equals(@Nullable Object obj) {
         Deputy d= (Deputy) obj;
         return id==d.getId();
-    }
-
-
-    public void addSite(String nouveauSite) {
-        this.sites_web.add(nouveauSite);
     }
 }
