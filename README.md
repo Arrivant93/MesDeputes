@@ -1,15 +1,10 @@
-# Mes députés accueil 
-<img width="267" alt="Capture d’écran 2024-04-07 à 23 43 19" src="https://github.com/hichemaabb/mesdeputes/assets/136649208/93c762a7-f0e9-46e5-ba18-3d89582de056">
-
 # Recherche deputés
-<img width="252" alt="Capture d’écran 2024-04-07 à 23 43 37" src="https://github.com/hichemaabb/mesdeputes/assets/136649208/57055d99-d413-419e-87fb-4b4ca1d8ab27">
+![Capture d'écran 2024-04-08 115723](https://github.com/Arrivant93/MesDeputes/assets/104974854/8b1315c7-3940-49be-8e23-6290547c6048)
 
 # Page deputés
-<img width="241" alt="Capture d’écran 2024-04-07 à 23 43 54" src="https://github.com/hichemaabb/mesdeputes/assets/136649208/0bb5bdfc-8750-4ea8-a3d4-fd9b43326f7e">
+![Capture d'écran 2024-04-08 120020](https://github.com/Arrivant93/MesDeputes/assets/104974854/e5308a01-a4ce-4470-abe5-4940baeb5469)
 
-# Vote rejeté
-<img width="200" alt="Capture d’écran 2024-04-07 à 23 44 19" src="https://github.com/hichemaabb/mesdeputes/assets/136649208/062a64bb-4bb3-4153-a5d6-78a5ab262b1a">
 
 # Vote accepté 
-<img width="187" alt="Capture d’écran 2024-04-07 à 23 44 09" src="https://github.com/hichemaabb/mesdeputes/assets/136649208/e3f303ab-2610-437e-8fa8-914dd2442497">
+![Capture d'écran 2024-04-08 120250](https://github.com/Arrivant93/MesDeputes/assets/104974854/248b7840-3eac-47ae-9ed4-a32ea309beb5)
 
